@@ -12,7 +12,7 @@ body{
 }
 
 #container{
-    width: 700px;
+    width: 750px;
     margin: 0 auto;
 }
 
@@ -77,3 +77,49 @@ body.fotos #navegacao a#fotos{
     background: #de003e;
     cursor: text; /*Dá impressão pro usuário de que não pode clicar de novo*/
 }
+
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#primario{
+    width: 270px;
+    background-color: aqua;
+    float: left;
+    margin: 0 0 20px 195px; /*Colocando na ordem correta, para facilitar aos leitores de tela
+    180 da lateral mais 15 de espaçamento = 195*/
+}
+
+#secundario{
+    width: 270px;
+    background-color: rgb(0, 17, 255);
+    float: left;
+    margin: 0 0 20px 15px; /*Colocando na ordem correta, para facilitar aos leitores de tela
+    espaçamento de 15*/
+}
+
+
+#lateral{
+    width: 180px;
+    background-color: rgb(157, 255, 0);
+    float: left;
+    margin: 0 0 20px -750px; /*Colocando na ordem correta, para facilitar aos leitores de tela
+    -750, fazendo colar no container que tem esse tamanho total*/
+} 
+
+
+/*Rodapé*/
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape p{
+    text-align: center;
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
