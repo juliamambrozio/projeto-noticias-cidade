@@ -28,3 +28,52 @@ body{
     background: url('../imagens/logo.png');
     text-indent: -3000px; /*Para esconder o texto, se caso o css da página não carregar, ele irá reaparecer*/
 }
+
+/*Barra de navegação*/
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{
+    background: #b10333;
+    margin-top: 30px;
+    float: left; /*Para flutuar junto com o li*/
+}
+
+#topo ul li{
+    float: left; /*Para ficar lado a lado*/
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    background: url('../imagens/divisor.png') repeat-y left center;
+}
+
+#topo ul .primeiro a{
+    background: none; /* para tirar o background do canto esquerdo do primeiro ítem */
+}
+
+#topo ul a:hover{
+    color: #69001d;
+
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude ,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos{
+    color: white;
+    background: #de003e;
+    cursor: text; /*Dá impressão pro usuário de que não pode clicar de novo*/
+}
