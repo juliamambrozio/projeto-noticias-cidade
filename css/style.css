@@ -140,7 +140,45 @@ h2{
     margin-top: 2px;
 }
 
+/* Formatar menus laterais */
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
 
+#lateral ul a:hover{
+    background: #f9f9f9 url('../imagens/marcador.png') no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+    
+}
+
+/* Formatando formulário */
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input[type="submit"]{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+
+}
 
 
 /*Rodapé*/
