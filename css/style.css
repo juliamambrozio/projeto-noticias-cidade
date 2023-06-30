@@ -85,7 +85,6 @@ body.fotos #navegacao a#fotos{
 
 #lateral{
     width: 180px;
-    background-color: rgb(157, 255, 0);
     float: left;
     margin: 0 0 20px -750px; /*Colocando na ordem correta, para facilitar aos leitores de tela
     -750, fazendo colar no container que tem esse tamanho total*/
@@ -121,6 +120,25 @@ body.fotos #navegacao a#fotos{
     espaçamento de 15*/
 }
 
+/* Caixas */
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url('../imagens/fundo-caixa.png');
+}
+
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 20px;
+    margin-top: 2px;
+}
 
 
 
