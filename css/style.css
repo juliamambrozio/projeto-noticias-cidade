@@ -95,7 +95,6 @@ body.fotos #navegacao a#fotos{
 
 #primario{
     width: 270px;
-    background-color: aqua;
     float: left;
     margin: 0 0 20px 195px;
 }
@@ -114,7 +113,6 @@ body.fotos #navegacao a#fotos{
 
 #secundario{
     width: 270px;
-    background-color: rgb(0, 17, 255);
     float: left;
     margin: 0 0 20px 15px; /*Colocando na ordem correta, para facilitar aos leitores de tela
     espaçamento de 15*/
@@ -138,6 +136,30 @@ h2{
     background: #fff;
     padding: 20px;
     margin-top: 2px;
+}
+
+/* Conteúdo Primário*/
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #de033e;
+    color: black;
 }
 
 /* Formatar menus laterais */
