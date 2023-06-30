@@ -31,6 +31,15 @@ body{
 
 /*Barra de navegação*/
 
+a:link, a:visited{
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover{
+    color: #e50040;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -66,17 +75,6 @@ ul{
 
 }
 
-body.home #navegacao a#home,
-body.brasil #navegacao a#brasil,
-body.internacional #navegacao a#internacional,
-body.economia #navegacao a#economia,
-body.saude #navegacao a#saude ,
-body.ciencia #navegacao a#ciencia,
-body.fotos #navegacao a#fotos{
-    color: white;
-    background: #de003e;
-    cursor: text; /*Dá impressão pro usuário de que não pode clicar de novo*/
-}
 
 #conteudo{
     margin-top: 60px;
@@ -193,6 +191,7 @@ h3{
 
 #lista-noticias li a p{
     font-size: 0.7em;
+    color: #000;
     
 }
 
@@ -249,6 +248,18 @@ input[type="submit"]{
     width: 750px;
     margin: 0 auto;
     color: #fff;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude ,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos{
+    color: white;
+    background: #de003e;
+    cursor: text; /*Dá impressão pro usuário de que não pode clicar de novo*/
 }
 
 
